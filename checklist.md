@@ -40,9 +40,9 @@ e.g. sd_first_name
       e.g. (sd) Payrexx
            (sd) Legal Pages
 - [ ] Class Name, Model technical names, view technical and names contain sd.
-      e.g. sd_partner_list_view_inherit -- xml id
-      e.g. SdResPartner  -- class name
-           sd.legal.pages  -- Model name
+     -       e.g.sd_partner_list_view_inherit --> xml id
+                SdResPartner  --> class name
+                sd.legal.pages  --> Model name
 - [ ] make sure all XML IDs contain sd_.
 - [ ] make sure there are not any sing warning message on terminal side.
 
