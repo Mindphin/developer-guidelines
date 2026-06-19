@@ -1,4 +1,4 @@
-# Odoo Development Checklist
+# Soludoo Development Guideline
 
 ## Purpose
 
