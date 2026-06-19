@@ -8,17 +8,19 @@
 
 {
     'name': '(sd) App Name',
-    'version': '19.0.1.0',
-    'category': '', #provide category
+    'version': '19.0.1.0.0',
+    'category': '',  # Provide category.
     'sequence': 1,
-    'summary': 'write here sort summery',
-    'description': "Add here description",
+    'summary': 'Add a short module summary here',
+    'description': 'Add the module description here',
     'website': 'https://www.soludoo.ch',
     'author': 'Soludoo',
-    'depends': [''],
-    'installable': True,
+    'license': 'OPL-1',
+    'depends': ['base'],
     'data': [
         'security/ir.model.access.csv',
+        'data/sd_default_data.xml',
     ],
+    'installable': True,
     'application': False,
 }
