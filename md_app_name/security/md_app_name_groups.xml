@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="md_app_name_module_category" model="ir.module.category">
+        <field name="name">App Name</field>
+        <field name="description">Mindphin App Name Module</field>
+        <field name="sequence">50</field>
+    </record>
+
+    <record id="md_app_name_group_user" model="res.groups">
+        <field name="name">App Name User</field>
+        <field name="category_id" ref="md_app_name_module_category"/>
+    </record>
+
+    <record id="md_app_name_group_manager" model="res.groups">
+        <field name="name">App Name Manager</field>
+        <field name="category_id" ref="md_app_name_module_category"/>
+        <field name="implied_ids" eval="[(4, ref('md_app_name_group_user'))]"/>
+        <field name="users" eval="[(4, ref('base.user_admin'))]"/>
+    </record>
+</odoo>

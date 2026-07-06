@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_md_app_record_user,md.app.record.user,model_md_app_record,md_app_name.md_app_name_group_user,1,0,0,0
+access_md_app_record_manager,md.app.record.manager,model_md_app_record,md_app_name.md_app_name_group_manager,1,1,1,1

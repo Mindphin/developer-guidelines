@@ -1,0 +1,21 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * md_app_name
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+
+#. module: md_app_name
+#: model:ir.model.fields,field_description:md_app_name.field_md_app_record__md_code
+msgid "Code"
+msgstr ""
+
+#. module: md_app_name
+#: model:ir.model.fields,field_description:md_app_name.field_md_app_record__md_note
+msgid "Notes"
+msgstr ""

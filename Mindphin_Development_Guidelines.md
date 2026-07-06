@@ -1,5 +1,7 @@
 # Odoo Development Checklist
 
+<a href="https://github.com/Mindphin/developer-guidelines/archive/refs/heads/mindphin.zip" download>Download the starter repository ZIP</a>
+
 ## Purpose
 
 This document defines the mandatory development and review standards for custom

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem
+        id="md_app_name_menu_root"
+        name="App Name"
+        sequence="50"
+        groups="md_app_name.md_app_name_group_user"
+    />
+
+    <menuitem
+        id="md_app_record_menu"
+        name="App Records"
+        parent="md_app_name_menu_root"
+        action="md_app_record_action"
+        sequence="10"
+        groups="md_app_name.md_app_name_group_user"
+    />
+</odoo>
